@@ -1,0 +1,12 @@
+ANIMATION:
+   @keyframws animationname
+
+   animation duration
+   animation-iteration-count
+   animation-direction: reverse alternative
+
+
+
+
+
+Q1. create a jumping ball infinetly

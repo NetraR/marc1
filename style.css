@@ -1,0 +1,129 @@
+/* .box1{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: cornflowerblue;
+    animation-name: netra;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    position: relative;
+}
+.box2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: cornflowerblue;
+    animation-name: examp;;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    position: relative;
+}
+@keyframes examp {
+    0%{
+        background-color: aquamarine;
+        top: 0px;
+        left: 0px;
+    }
+    25%{
+        background-color: rgb(0, 255, 21);
+        top: 0px;
+        left: 500px;
+
+    }
+    75%{
+        background-color: rgb(143, 10, 103);
+        top: 500px;
+        left: 0px;
+
+    }
+    100%{
+        background-color: rgb(39, 127, 241);
+        top: 0px;
+        left: 0px;
+        transform: skewX(25deg);
+    }
+} */
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.box1{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: indianred;
+    margin: 2px;
+    animation-name: netra;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    /* animation-direction: reverse; */
+    position: relative;
+}
+
+@keyframes netra {
+    0%{
+        background-color: aquamarine;
+        top: 0px;
+        left: 0px;
+    }
+    25%{
+        background-color: rgb(0, 255, 21);
+        top: 0px;
+        left: 0px;
+
+    }
+    75%{
+        background-color: rgb(143, 10, 103);
+        top: 500px;
+        left: 0px;
+
+    }
+    100%{
+        background-color: rgb(39, 127, 241);
+        top: 0px;
+        left: 0px;
+        /* transform: skewX(25deg); */
+    }
+}
+.box2{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: indianred;
+    margin: 2px;
+    animation-name: netra1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    /* animation-direction: reverse; */
+    position: relative;
+}
+
+@keyframes netra1 {
+    0%{
+        background-color: aquamarine;
+        top: 0px;
+        left: 0px;
+    }
+    25%{
+        background-color: rgb(0, 255, 21);
+        top: 0px;
+        left: 0px;
+
+    }
+    75%{
+        background-color: rgb(143, 10, 103);
+        top: 0px;
+        left: 0px;
+
+    }
+    100%{
+        background-color: rgb(39, 127, 241);
+        top: 100px;
+        left: 0px;
+        /* transform: skewX(25deg); */
+    }
+}
